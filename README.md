@@ -1,6 +1,6 @@
 # Shop Deal
 
-Shop Deal is a cross platform application for mobile built in [flutter](https://flutter.dev/) using [firebase](https://firebase.google.com) as a backend.
+Shop Deal is a full e-commerce cross platform application for mobile built in [flutter](https://flutter.dev/) using [firebase](https://firebase.google.com) as a backend.
 
 ## Libraries and tools used
 - [Bloc](https://pub.dev/packages/bloc) - State management.
