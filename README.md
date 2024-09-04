@@ -24,6 +24,7 @@ Shop Deal is a cross platform application for mobile built in [flutter](https://
 - [google_maps_flutter](https://pub.dev/packages/google_maps_flutter) - For integrating google maps in the application.
 - [geolocator](https://pub.dev/packages/geolocator) - For getting the user current location.
 
+
 ## Screenshots
 ### Light Mode + English Language
 
