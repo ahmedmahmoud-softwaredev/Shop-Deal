@@ -27,7 +27,9 @@ Shop Deal is a full e-commerce cross platform application for mobile built in [f
 
 ## Screenshots
 ### Light Mode + English Language
-
+![Screenshot-1725464223.png](https://i.postimg.cc/nLxqMFr1/Screenshot-1725464223.png)
+![Screenshot-1725464310.png](https://i.postimg.cc/4yY9jn2X/Screenshot-1725464310.png)
+![Screenshot-1725464314.png](https://i.postimg.cc/L5G1SRGL/Screenshot-1725464314.png)
 ![Screenshot-1725456201.png](https://i.postimg.cc/VNGbKYGm/Screenshot-1725456201.png)
 ![Screenshot-1725456213.png](https://i.postimg.cc/9030kzG5/Screenshot-1725456213.png)
 ![Screenshot-1725456222.png](https://i.postimg.cc/HxF8C61N/Screenshot-1725456222.png)
@@ -55,6 +57,9 @@ Shop Deal is a full e-commerce cross platform application for mobile built in [f
 ![Screenshot-1725456428.png](https://i.postimg.cc/dQmJFWFT/Screenshot-1725456428.png)
 
 ### Dark Mode + Arabic Language
+![Screenshot-1725464223.png](https://i.postimg.cc/nLxqMFr1/Screenshot-1725464223.png)
+![Screenshot-1725464094.png](https://i.postimg.cc/L5QVZrw8/Screenshot-1725464094.png)
+![Screenshot-1725464097.png](https://i.postimg.cc/44WPM9yR/Screenshot-1725464097.png)
 ![Screenshot-1725457086.png](https://i.postimg.cc/tCzP1Q0d/Screenshot-1725457086.png)
 ![Screenshot-1725459074.png](https://i.postimg.cc/BvR1WJD3/Screenshot-1725459074.png)
 ![Screenshot-1725459091.png](https://i.postimg.cc/BbB81DzZ/Screenshot-1725459091.png)
