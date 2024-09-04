@@ -26,6 +26,7 @@ Shop Deal is a cross platform application for mobile built in [flutter](https://
 
 ## Screenshots
 ### Light Mode + English Language
+
 ![Screenshot-1725456201.png](https://i.postimg.cc/VNGbKYGm/Screenshot-1725456201.png)
 ![Screenshot-1725456213.png](https://i.postimg.cc/9030kzG5/Screenshot-1725456213.png)
 ![Screenshot-1725456222.png](https://i.postimg.cc/HxF8C61N/Screenshot-1725456222.png)
@@ -51,3 +52,28 @@ Shop Deal is a cross platform application for mobile built in [flutter](https://
 ![Screenshot-1725456405.png](https://i.postimg.cc/J0mmJXNn/Screenshot-1725456405.png)
 ![Screenshot-1725456411.png](https://i.postimg.cc/zvjNkf7k/Screenshot-1725456411.png)
 ![Screenshot-1725456428.png](https://i.postimg.cc/dQmJFWFT/Screenshot-1725456428.png)
+
+### Dark Mode + Arabic Language
+![Screenshot-1725457086.png](https://i.postimg.cc/tCzP1Q0d/Screenshot-1725457086.png)
+![Screenshot-1725459074.png](https://i.postimg.cc/BvR1WJD3/Screenshot-1725459074.png)
+![Screenshot-1725459091.png](https://i.postimg.cc/BbB81DzZ/Screenshot-1725459091.png)
+![Screenshot-1725459105.png](https://i.postimg.cc/7Zs2V3Zf/Screenshot-1725459105.png)
+![Screenshot-1725459109.png](https://i.postimg.cc/DZs4nRdX/Screenshot-1725459109.png)
+![Screenshot-1725459115.png](https://i.postimg.cc/5tXFkXXp/Screenshot-1725459115.png)
+![Screenshot-1725459118.png](https://i.postimg.cc/mkszDV86/Screenshot-1725459118.png)
+![Screenshot-1725459122.png](https://i.postimg.cc/HsT81ZJr/Screenshot-1725459122.png)
+![Screenshot-1725459126.png](https://i.postimg.cc/pLT9pmJx/Screenshot-1725459126.png)
+![Screenshot-1725459130.png](https://i.postimg.cc/Vvg6NwSd/Screenshot-1725459130.png)
+![Screenshot-1725459133.png](https://i.postimg.cc/RVG6S7fX/Screenshot-1725459133.png)
+![Screenshot-1725459140.png](https://i.postimg.cc/CxQRDwc8/Screenshot-1725459140.png)
+![Screenshot-1725459149.png](https://i.postimg.cc/9MG0vZCP/Screenshot-1725459149.png)
+![Screenshot-1725459151.png](https://i.postimg.cc/j2t2K2Sp/Screenshot-1725459151.png)
+![Screenshot-1725459158.png](https://i.postimg.cc/HxGjZBDs/Screenshot-1725459158.png)
+![Screenshot-1725459162.png](https://i.postimg.cc/wxQ32XWg/Screenshot-1725459162.png)
+![Screenshot-1725459169.png](https://i.postimg.cc/bN6rczc5/Screenshot-1725459169.png)
+![Screenshot-1725459177.png](https://i.postimg.cc/J4702sgJ/Screenshot-1725459177.png)
+![Screenshot-1725459204.png](https://i.postimg.cc/25WSZhbp/Screenshot-1725459204.png)
+![Screenshot-1725459210.png](https://i.postimg.cc/fLhTjymV/Screenshot-1725459210.png)
+![Screenshot-1725459263.png](https://i.postimg.cc/Wb4p7QFw/Screenshot-1725459263.png)
+![Screenshot-1725459272.png](https://i.postimg.cc/4NFf2Bpk/Screenshot-1725459272.png)
+![Screenshot-1725459277.png](https://i.postimg.cc/jSpst28M/Screenshot-1725459277.png)
