@@ -90,7 +90,7 @@ class OrderSummaryView extends StatelessWidget {
                                         state is SendOrderFailureState
                                     ? const CustomErrorWidget()
                                     : CustomMaterialButton(
-                                        title: S.of(context).pay.toUpperCase(),
+                                        title: sl<CheckoutCubit>().selectedPaymentMethod! == 0? S.of(context).pay.toUpperCase() : S.of(context).order.toUpperCase(),
                                         onPressed: () {
                                           if (sl<CheckoutCubit>()
                                                   .selectedPaymentMethod ==

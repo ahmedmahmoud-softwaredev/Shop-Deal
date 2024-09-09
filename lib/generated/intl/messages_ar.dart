@@ -88,6 +88,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("لا يوجد اتصال بالإنترنت"),
         "notifications": MessageLookupByLibrary.simpleMessage("الإشعارات"),
         "or": MessageLookupByLibrary.simpleMessage("أو"),
+        "order": MessageLookupByLibrary.simpleMessage("أطلب"),
         "orderProcessed":
             MessageLookupByLibrary.simpleMessage("تمت معالجة الطلب"),
         "orderSigned": MessageLookupByLibrary.simpleMessage("تم تسجيل الطلب"),

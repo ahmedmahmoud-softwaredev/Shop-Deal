@@ -90,6 +90,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("No Internet Connection"),
         "notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
         "or": MessageLookupByLibrary.simpleMessage("or"),
+        "order": MessageLookupByLibrary.simpleMessage("Order"),
         "orderProcessed":
             MessageLookupByLibrary.simpleMessage("Order Processed"),
         "orderSigned": MessageLookupByLibrary.simpleMessage("Order Signed"),

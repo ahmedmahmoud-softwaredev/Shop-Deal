@@ -94,5 +94,6 @@
     "thereIsNothingInWishlistYet": "There is nothing in wishlist yet",
     "youDonotHaveAnyOrdersYet": "You do not have any orders yet",
     "youDonotHaveAnyNotificationsYet": "You do not have any notifications yet",
-    "search": "Search" 
+    "search": "Search",
+    "order": "Order"
 }
