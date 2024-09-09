@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/features/account/views/account_view.dart';
-import 'package:online_shop/features/cart/views/cart_view.dart';
-import 'package:online_shop/features/core/view_model/internet_cubit/internet_cubit.dart';
-import 'package:online_shop/features/core/views/no_network_connection_view.dart';
-import 'package:online_shop/features/explore/views/explore_view.dart';
-import 'package:online_shop/features/root/view_model/root_cubit/root_cubit.dart';
-import 'package:online_shop/features/root/views/widgets/bottom_nav_bar.dart';
+import 'package:shop_deal/features/account/views/account_view.dart';
+import 'package:shop_deal/features/cart/views/cart_view.dart';
+import 'package:shop_deal/features/core/view_model/internet_cubit/internet_cubit.dart';
+import 'package:shop_deal/features/core/views/no_network_connection_view.dart';
+import 'package:shop_deal/features/explore/views/explore_view.dart';
+import 'package:shop_deal/features/root/view_model/root_cubit/root_cubit.dart';
+import 'package:shop_deal/features/root/views/widgets/bottom_nav_bar.dart';
 
 class RootView extends StatelessWidget {
   const RootView({super.key});

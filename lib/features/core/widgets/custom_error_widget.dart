@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
 
 class CustomErrorWidget extends StatelessWidget {
   const CustomErrorWidget({super.key, this.size = 24.0});

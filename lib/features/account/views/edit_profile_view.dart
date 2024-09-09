@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/features/account/views/widgets/edit_profile_view_body.dart';
-import 'package:online_shop/features/core/view_model/internet_cubit/internet_cubit.dart';
-import 'package:online_shop/features/core/views/custom_loading_view.dart';
-import 'package:online_shop/features/core/views/no_network_connection_view.dart';
+import 'package:shop_deal/features/account/views/widgets/edit_profile_view_body.dart';
+import 'package:shop_deal/features/core/view_model/internet_cubit/internet_cubit.dart';
+import 'package:shop_deal/features/core/views/custom_loading_view.dart';
+import 'package:shop_deal/features/core/views/no_network_connection_view.dart';
 
 class EditProfileView extends StatelessWidget {
   const EditProfileView({super.key});

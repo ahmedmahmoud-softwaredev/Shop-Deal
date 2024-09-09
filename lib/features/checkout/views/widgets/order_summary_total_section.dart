@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/cart/view_model/cart_cubit/cart_cubit.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/cart/view_model/cart_cubit/cart_cubit.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class OrderSummaryTotalSection extends StatelessWidget {
   const OrderSummaryTotalSection({super.key});

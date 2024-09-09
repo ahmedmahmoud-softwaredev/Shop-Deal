@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/utils/assets_constants.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/assets_constants.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class CategoryModel extends Equatable {
   final String icon;

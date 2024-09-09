@@ -1,6 +1,6 @@
 {
-    "name": "online_shop",
-    "short_name": "online_shop",
+    "name": "shop_deal",
+    "short_name": "shop_deal",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

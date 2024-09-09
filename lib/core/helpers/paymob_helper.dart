@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:online_shop/core/utils/api_constants.dart';
-import 'package:online_shop/core/utils/contants.dart';
+import 'package:shop_deal/core/utils/api_constants.dart';
+import 'package:shop_deal/core/utils/contants.dart';
 
 class PaymobHelper {
   static final Dio dio = Dio();

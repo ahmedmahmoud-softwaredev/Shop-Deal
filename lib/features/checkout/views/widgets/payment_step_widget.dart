@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/features/checkout/models/payment_method_model.dart';
-import 'package:online_shop/features/checkout/view_model/checkout_cubit/checkout_cubit.dart';
-import 'package:online_shop/features/checkout/views/widgets/payment_step_selection_method_widget.dart';
+import 'package:shop_deal/features/checkout/models/payment_method_model.dart';
+import 'package:shop_deal/features/checkout/view_model/checkout_cubit/checkout_cubit.dart';
+import 'package:shop_deal/features/checkout/views/widgets/payment_step_selection_method_widget.dart';
 
 class PaymentStepWidget extends StatelessWidget {
   const PaymentStepWidget({

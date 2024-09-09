@@ -1,11 +1,11 @@
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/core/utils/enums.dart';
-import 'package:online_shop/features/account/models/address_model.dart';
-import 'package:online_shop/features/account/models/notification_model.dart';
-import 'package:online_shop/features/cart/models/cart_item_model.dart';
-import 'package:online_shop/features/explore/models/product_model.dart';
-import 'package:online_shop/features/explore/models/review_model.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/core/utils/enums.dart';
+import 'package:shop_deal/features/account/models/address_model.dart';
+import 'package:shop_deal/features/account/models/notification_model.dart';
+import 'package:shop_deal/features/cart/models/cart_item_model.dart';
+import 'package:shop_deal/features/explore/models/product_model.dart';
+import 'package:shop_deal/features/explore/models/review_model.dart';
 
 class HiveHelper {
   static Future<void> init() async {

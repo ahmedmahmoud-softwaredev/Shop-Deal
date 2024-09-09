@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:online_shop/features/explore/models/category_model.dart';
-import 'package:online_shop/features/explore/views/widgets/category_icon_widget.dart';
+import 'package:shop_deal/features/explore/models/category_model.dart';
+import 'package:shop_deal/features/explore/views/widgets/category_icon_widget.dart';
 
 class CategoriesListView extends StatelessWidget {
   const CategoriesListView({super.key});

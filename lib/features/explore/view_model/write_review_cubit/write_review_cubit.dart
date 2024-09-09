@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/features/explore/models/product_model.dart';
-import 'package:online_shop/features/explore/models/review_model.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/features/explore/models/product_model.dart';
+import 'package:shop_deal/features/explore/models/review_model.dart';
 
 part 'write_review_state.dart';
 

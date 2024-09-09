@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/app_router.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/features/account/view_model/address_cubit/address_cubit.dart';
-import 'package:online_shop/features/account/views/widgets/shipping_address_component.dart';
-import 'package:online_shop/features/core/widgets/custom_error_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_loading_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_material_button.dart';
-import 'package:online_shop/features/core/widgets/empty_widget.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/features/account/view_model/address_cubit/address_cubit.dart';
+import 'package:shop_deal/features/account/views/widgets/shipping_address_component.dart';
+import 'package:shop_deal/features/core/widgets/custom_error_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_loading_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_material_button.dart';
+import 'package:shop_deal/features/core/widgets/empty_widget.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class ShippingAddressViewBody extends StatelessWidget {
   const ShippingAddressViewBody({super.key});

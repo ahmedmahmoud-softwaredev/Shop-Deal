@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
 
 class AccountListTile extends StatelessWidget {
   const AccountListTile({

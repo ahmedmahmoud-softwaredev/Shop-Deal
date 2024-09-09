@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
 
 ThemeData darkModeThemeData() => ThemeData.dark().copyWith(
       textButtonTheme: TextButtonThemeData(

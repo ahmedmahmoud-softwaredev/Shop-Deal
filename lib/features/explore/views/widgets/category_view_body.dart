@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/features/core/widgets/custom_appbar.dart';
-import 'package:online_shop/features/explore/view_model/category_cubit/category_cubit.dart';
-import 'package:online_shop/features/explore/views/widgets/products_gridview.dart';
+import 'package:shop_deal/features/core/widgets/custom_appbar.dart';
+import 'package:shop_deal/features/explore/view_model/category_cubit/category_cubit.dart';
+import 'package:shop_deal/features/explore/views/widgets/products_gridview.dart';
 
 class CategoryViewBody extends StatelessWidget {
   const CategoryViewBody({super.key, required this.category});

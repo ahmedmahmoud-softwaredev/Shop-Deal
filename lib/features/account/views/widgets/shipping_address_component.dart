@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/account/models/address_model.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/account/models/address_model.dart';
 
 class ShippingAddressComponent extends StatelessWidget {
   const ShippingAddressComponent(

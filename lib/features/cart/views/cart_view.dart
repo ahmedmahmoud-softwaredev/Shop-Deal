@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/global/theme/theme_data/dark_model_theme_data/dark_mode_theme_data.dart';
-import 'package:online_shop/core/utils/app_router.dart';
-import 'package:online_shop/core/utils/enums.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/cart/view_model/cart_cubit/cart_cubit.dart';
-import 'package:online_shop/features/cart/views/widgets/cart_view_body.dart';
-import 'package:online_shop/features/core/view_model/app_cubit/app_cubit.dart';
-import 'package:online_shop/features/core/widgets/custom_error_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_loading_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_material_button.dart';
-import 'package:online_shop/features/core/widgets/show_snackbar.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/global/theme/theme_data/dark_model_theme_data/dark_mode_theme_data.dart';
+import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/core/utils/enums.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/cart/view_model/cart_cubit/cart_cubit.dart';
+import 'package:shop_deal/features/cart/views/widgets/cart_view_body.dart';
+import 'package:shop_deal/features/core/view_model/app_cubit/app_cubit.dart';
+import 'package:shop_deal/features/core/widgets/custom_error_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_loading_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_material_button.dart';
+import 'package:shop_deal/features/core/widgets/show_snackbar.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class CartView extends StatelessWidget {
   const CartView({super.key});

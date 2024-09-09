@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/app_router.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/authentication/view_model/login_cubit/login_cubit.dart';
-import 'package:online_shop/features/core/widgets/custom_material_button.dart';
-import 'package:online_shop/features/core/widgets/custom_text_form_field_component.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/authentication/view_model/login_cubit/login_cubit.dart';
+import 'package:shop_deal/features/core/widgets/custom_material_button.dart';
+import 'package:shop_deal/features/core/widgets/custom_text_form_field_component.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class SignInComponent extends StatelessWidget {
   SignInComponent({super.key});

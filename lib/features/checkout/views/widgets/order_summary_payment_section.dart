@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/checkout/models/payment_method_model.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/checkout/models/payment_method_model.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class OrderSummaryPaymentSection extends StatelessWidget {
   const OrderSummaryPaymentSection({

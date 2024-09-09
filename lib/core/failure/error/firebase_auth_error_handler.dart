@@ -1,4 +1,4 @@
-import 'package:online_shop/core/utils/contants.dart';
+import 'package:shop_deal/core/utils/contants.dart';
 
 String fireBaseAuthErrorHandler({required String errorCode}) {
   switch (errorCode) {

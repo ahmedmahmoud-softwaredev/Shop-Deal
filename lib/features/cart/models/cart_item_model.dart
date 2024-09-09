@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:hive/hive.dart';
-import 'package:online_shop/features/explore/models/product_model.dart';
+import 'package:shop_deal/features/explore/models/product_model.dart';
 part "cart_item_model.g.dart";
 
 @HiveType(typeId: 0)

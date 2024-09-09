@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/cart/models/cart_item_model.dart';
-import 'package:online_shop/features/cart/view_model/cart_cubit/cart_cubit.dart';
-import 'package:online_shop/features/core/view_model/app_cubit/app_cubit.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/cart/models/cart_item_model.dart';
+import 'package:shop_deal/features/cart/view_model/cart_cubit/cart_cubit.dart';
+import 'package:shop_deal/features/core/view_model/app_cubit/app_cubit.dart';
 
 class CounterWidget extends StatelessWidget {
   const CounterWidget({super.key, required this.index, required this.cartItem});

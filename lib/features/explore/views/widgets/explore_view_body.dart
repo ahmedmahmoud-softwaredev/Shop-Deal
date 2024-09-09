@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/utils/app_router.dart';
-import 'package:online_shop/features/core/widgets/custom_error_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_loading_widget.dart';
-import 'package:online_shop/features/explore/view_model/explore_cubit/explore_cubit.dart';
-import 'package:online_shop/features/explore/views/widgets/best_selling_section.dart';
-import 'package:online_shop/features/explore/views/widgets/categories_section.dart';
-import 'package:online_shop/features/explore/views/widgets/product_widget.dart';
-import 'package:online_shop/features/explore/views/widgets/promo_banner.dart';
-import 'package:online_shop/features/explore/views/widgets/recommended_section.dart';
-import 'package:online_shop/features/explore/views/widgets/search_field.dart';
+import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/features/core/widgets/custom_error_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_loading_widget.dart';
+import 'package:shop_deal/features/explore/view_model/explore_cubit/explore_cubit.dart';
+import 'package:shop_deal/features/explore/views/widgets/best_selling_section.dart';
+import 'package:shop_deal/features/explore/views/widgets/categories_section.dart';
+import 'package:shop_deal/features/explore/views/widgets/product_widget.dart';
+import 'package:shop_deal/features/explore/views/widgets/promo_banner.dart';
+import 'package:shop_deal/features/explore/views/widgets/recommended_section.dart';
+import 'package:shop_deal/features/explore/views/widgets/search_field.dart';
 
 class ExploreViewBody extends StatelessWidget {
   const ExploreViewBody({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/features/account/views/widgets/tracking_circle_widget.dart';
+import 'package:shop_deal/features/account/views/widgets/tracking_circle_widget.dart';
 
 class CheckoutStepWidget extends StatelessWidget {
   const CheckoutStepWidget({

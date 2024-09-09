@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/features/account/view_model/user_cubit/user_cubit.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/features/account/view_model/user_cubit/user_cubit.dart';
 
 part 'internet_state.dart';
 

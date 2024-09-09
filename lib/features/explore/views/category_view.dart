@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/core/utils/app_constants.dart';
-import 'package:online_shop/features/core/view_model/internet_cubit/internet_cubit.dart';
-import 'package:online_shop/features/core/views/custom_loading_view.dart';
-import 'package:online_shop/features/core/views/no_network_connection_view.dart';
-import 'package:online_shop/features/explore/view_model/category_cubit/category_cubit.dart';
-import 'package:online_shop/features/explore/views/widgets/category_view_body.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/app_constants.dart';
+import 'package:shop_deal/features/core/view_model/internet_cubit/internet_cubit.dart';
+import 'package:shop_deal/features/core/views/custom_loading_view.dart';
+import 'package:shop_deal/features/core/views/no_network_connection_view.dart';
+import 'package:shop_deal/features/explore/view_model/category_cubit/category_cubit.dart';
+import 'package:shop_deal/features/explore/views/widgets/category_view_body.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class CategoryView extends StatelessWidget {
   const CategoryView({super.key, required this.index});

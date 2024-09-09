@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/features/core/view_model/app_cubit/app_cubit.dart';
-import 'package:online_shop/features/explore/models/product_model.dart';
-import 'package:online_shop/features/explore/view_model/item_details_cubit/item_details_cubit.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/features/core/view_model/app_cubit/app_cubit.dart';
+import 'package:shop_deal/features/explore/models/product_model.dart';
+import 'package:shop_deal/features/explore/view_model/item_details_cubit/item_details_cubit.dart';
 
 class FavouriteButton extends StatefulWidget {
   FavouriteButton({

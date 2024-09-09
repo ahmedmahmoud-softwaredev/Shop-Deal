@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/core/utils/assets_constants.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/features/account/views/widgets/account_list_tile.dart';
-import 'package:online_shop/features/core/view_model/app_cubit/app_cubit.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/assets_constants.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/features/account/views/widgets/account_list_tile.dart';
+import 'package:shop_deal/features/core/view_model/app_cubit/app_cubit.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class ThemeViewBody extends StatelessWidget {
   const ThemeViewBody({super.key});

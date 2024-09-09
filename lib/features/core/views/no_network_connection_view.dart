@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/features/core/widgets/no_network_connection_view_body.dart';
+import 'package:shop_deal/features/core/widgets/no_network_connection_view_body.dart';
 
 class NoNetworkConnectionView extends StatelessWidget {
   const NoNetworkConnectionView({super.key});

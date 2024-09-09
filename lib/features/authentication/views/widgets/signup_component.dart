@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/authentication/view_model/register_cubit/register_cubit.dart';
-import 'package:online_shop/features/core/widgets/custom_material_button.dart';
-import 'package:online_shop/features/core/widgets/custom_text_form_field_component.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/authentication/view_model/register_cubit/register_cubit.dart';
+import 'package:shop_deal/features/core/widgets/custom_material_button.dart';
+import 'package:shop_deal/features/core/widgets/custom_text_form_field_component.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class SignupComponent extends StatelessWidget {
   SignupComponent({super.key});

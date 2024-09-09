@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/app_constants.dart';
-import 'package:online_shop/core/utils/app_router.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/checkout/models/order_model.dart';
-import 'package:online_shop/features/core/view_model/app_cubit/app_cubit.dart';
-import 'package:online_shop/features/core/widgets/custom_cached_network_image.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/app_constants.dart';
+import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/checkout/models/order_model.dart';
+import 'package:shop_deal/features/core/view_model/app_cubit/app_cubit.dart';
+import 'package:shop_deal/features/core/widgets/custom_cached_network_image.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class TrackOrderListViewComponent extends StatelessWidget {
   const TrackOrderListViewComponent(

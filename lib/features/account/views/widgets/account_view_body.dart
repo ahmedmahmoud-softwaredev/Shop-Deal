@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/utils/app_router.dart';
-import 'package:online_shop/core/utils/assets_constants.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/core/utils/enums.dart';
-import 'package:online_shop/features/account/view_model/logout_cubit/logout_cubit.dart';
-import 'package:online_shop/features/account/view_model/user_cubit/user_cubit.dart';
-import 'package:online_shop/features/account/views/widgets/account_details_widget.dart';
-import 'package:online_shop/features/account/views/widgets/account_list_tile.dart';
-import 'package:online_shop/features/core/view_model/app_cubit/app_cubit.dart';
-import 'package:online_shop/features/core/widgets/custom_error_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_loading_widget.dart';
-import 'package:online_shop/features/core/widgets/show_snackbar.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/core/utils/assets_constants.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/core/utils/enums.dart';
+import 'package:shop_deal/features/account/view_model/logout_cubit/logout_cubit.dart';
+import 'package:shop_deal/features/account/view_model/user_cubit/user_cubit.dart';
+import 'package:shop_deal/features/account/views/widgets/account_details_widget.dart';
+import 'package:shop_deal/features/account/views/widgets/account_list_tile.dart';
+import 'package:shop_deal/features/core/view_model/app_cubit/app_cubit.dart';
+import 'package:shop_deal/features/core/widgets/custom_error_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_loading_widget.dart';
+import 'package:shop_deal/features/core/widgets/show_snackbar.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class AccountViewBody extends StatelessWidget {
   const AccountViewBody({super.key});

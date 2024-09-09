@@ -1,11 +1,11 @@
 import 'package:flutter/widgets.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/features/account/view_model/address_cubit/address_cubit.dart';
-import 'package:online_shop/features/core/widgets/custom_loading_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_material_button.dart';
-import 'package:online_shop/features/core/widgets/custom_text_form_field_component.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/features/account/view_model/address_cubit/address_cubit.dart';
+import 'package:shop_deal/features/core/widgets/custom_loading_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_material_button.dart';
+import 'package:shop_deal/features/core/widgets/custom_text_form_field_component.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class NewAddressViewBody extends StatelessWidget {
   NewAddressViewBody({super.key});

@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:online_shop/features/account/models/address_model.dart';
-import 'package:online_shop/features/checkout/models/order_product_model.dart';
+import 'package:shop_deal/features/account/models/address_model.dart';
+import 'package:shop_deal/features/checkout/models/order_product_model.dart';
 
 class OrderModel extends Equatable {
   final String orderBuyerId;

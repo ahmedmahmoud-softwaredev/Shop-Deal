@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/core/widgets/arrow_back_button.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/core/widgets/arrow_back_button.dart';
 
 AppBar customAppBar(
         {required String title,

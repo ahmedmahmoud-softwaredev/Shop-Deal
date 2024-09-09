@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/features/explore/models/review_model.dart';
-import 'package:online_shop/features/explore/views/widgets/review_widget.dart';
+import 'package:shop_deal/features/explore/models/review_model.dart';
+import 'package:shop_deal/features/explore/views/widgets/review_widget.dart';
 
 class ReviewsListView extends StatelessWidget {
   const ReviewsListView({super.key, required this.reviews});

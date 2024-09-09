@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/core/view_model/app_cubit/app_cubit.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/core/view_model/app_cubit/app_cubit.dart';
 
 class CustomMaterialButton extends StatelessWidget {
   const CustomMaterialButton({

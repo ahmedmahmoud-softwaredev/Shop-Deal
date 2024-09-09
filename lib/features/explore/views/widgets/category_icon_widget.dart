@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/utils/app_router.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/explore/models/category_model.dart';
+import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/explore/models/category_model.dart';
 
 class CategoryIconWidget extends StatelessWidget {
   const CategoryIconWidget(

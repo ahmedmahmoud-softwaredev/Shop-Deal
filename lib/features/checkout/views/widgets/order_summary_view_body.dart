@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/features/account/view_model/address_cubit/address_cubit.dart';
-import 'package:online_shop/features/account/views/widgets/shipping_address_component.dart';
-import 'package:online_shop/features/cart/view_model/cart_cubit/cart_cubit.dart';
-import 'package:online_shop/features/checkout/models/payment_method_model.dart';
-import 'package:online_shop/features/checkout/view_model/checkout_cubit/checkout_cubit.dart';
-import 'package:online_shop/features/checkout/views/widgets/order_summary_payment_section.dart';
-import 'package:online_shop/features/checkout/views/widgets/order_summary_products_list_view.dart';
-import 'package:online_shop/features/checkout/views/widgets/order_summary_total_section.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/features/account/view_model/address_cubit/address_cubit.dart';
+import 'package:shop_deal/features/account/views/widgets/shipping_address_component.dart';
+import 'package:shop_deal/features/cart/view_model/cart_cubit/cart_cubit.dart';
+import 'package:shop_deal/features/checkout/models/payment_method_model.dart';
+import 'package:shop_deal/features/checkout/view_model/checkout_cubit/checkout_cubit.dart';
+import 'package:shop_deal/features/checkout/views/widgets/order_summary_payment_section.dart';
+import 'package:shop_deal/features/checkout/views/widgets/order_summary_products_list_view.dart';
+import 'package:shop_deal/features/checkout/views/widgets/order_summary_total_section.dart';
 
 class OrderSummaryViewBody extends StatelessWidget {
   const OrderSummaryViewBody({

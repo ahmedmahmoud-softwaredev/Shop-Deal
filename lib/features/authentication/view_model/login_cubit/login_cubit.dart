@@ -4,12 +4,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:online_shop/core/failure/error/firebase_auth_error_handler.dart';
-import 'package:online_shop/core/helpers/shared_preferences_helper.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/features/account/view_model/user_cubit/user_cubit.dart';
-import 'package:online_shop/features/authentication/models/user_model.dart';
+import 'package:shop_deal/core/failure/error/firebase_auth_error_handler.dart';
+import 'package:shop_deal/core/helpers/shared_preferences_helper.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/features/account/view_model/user_cubit/user_cubit.dart';
+import 'package:shop_deal/features/authentication/models/user_model.dart';
 part 'login_state.dart';
 
 class LoginCubit extends Cubit<LoginState> {

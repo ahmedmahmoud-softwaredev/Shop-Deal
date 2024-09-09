@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/features/explore/view_model/explore_cubit/explore_cubit.dart';
-import 'package:online_shop/features/explore/views/widgets/explore_view_body.dart';
+import 'package:shop_deal/features/explore/view_model/explore_cubit/explore_cubit.dart';
+import 'package:shop_deal/features/explore/views/widgets/explore_view_body.dart';
 
 class ExploreView extends StatelessWidget {
   const ExploreView({super.key});

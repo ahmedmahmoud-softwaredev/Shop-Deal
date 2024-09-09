@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/core/helpers/paymob_helper.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/features/cart/view_model/cart_cubit/cart_cubit.dart';
-import 'package:online_shop/features/checkout/models/order_model.dart';
+import 'package:shop_deal/core/helpers/paymob_helper.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/features/cart/view_model/cart_cubit/cart_cubit.dart';
+import 'package:shop_deal/features/checkout/models/order_model.dart';
 
 part 'checkout_state.dart';
 

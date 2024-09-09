@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/cart/view_model/cart_cubit/cart_cubit.dart';
-import 'package:online_shop/features/cart/views/widgets/cart_list_view_item.dart';
-import 'package:online_shop/features/core/widgets/empty_widget.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/cart/view_model/cart_cubit/cart_cubit.dart';
+import 'package:shop_deal/features/cart/views/widgets/cart_list_view_item.dart';
+import 'package:shop_deal/features/core/widgets/empty_widget.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class CartViewBody extends StatefulWidget {
   const CartViewBody({super.key});

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/features/account/view_model/wishlist_cubit/wishlist_cubit.dart';
-import 'package:online_shop/features/account/views/widgets/wishlist_component.dart';
-import 'package:online_shop/features/core/widgets/custom_error_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_loading_widget.dart';
-import 'package:online_shop/features/core/widgets/empty_widget.dart';
-import 'package:online_shop/features/explore/models/product_model.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/features/account/view_model/wishlist_cubit/wishlist_cubit.dart';
+import 'package:shop_deal/features/account/views/widgets/wishlist_component.dart';
+import 'package:shop_deal/features/core/widgets/custom_error_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_loading_widget.dart';
+import 'package:shop_deal/features/core/widgets/empty_widget.dart';
+import 'package:shop_deal/features/explore/models/product_model.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class WishlistViewBody extends StatelessWidget {
   const WishlistViewBody({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/utils/functions.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/explore/views/widgets/categories_list_view.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/functions.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/explore/views/widgets/categories_list_view.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class CategoriesSection extends StatelessWidget {
   const CategoriesSection({super.key});

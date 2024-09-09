@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/features/account/models/notification_model.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/features/account/models/notification_model.dart';
 
 part 'notifications_state.dart';
 

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/features/checkout/view_model/checkout_cubit/checkout_cubit.dart';
-import 'package:online_shop/features/checkout/views/widgets/address_step_widget.dart';
-import 'package:online_shop/features/checkout/views/widgets/checkout_steps_widget.dart';
-import 'package:online_shop/features/checkout/views/widgets/payment_step_widget.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/features/checkout/view_model/checkout_cubit/checkout_cubit.dart';
+import 'package:shop_deal/features/checkout/views/widgets/address_step_widget.dart';
+import 'package:shop_deal/features/checkout/views/widgets/checkout_steps_widget.dart';
+import 'package:shop_deal/features/checkout/views/widgets/payment_step_widget.dart';
 
 class CheckoutViewBody extends StatelessWidget {
   const CheckoutViewBody({super.key});

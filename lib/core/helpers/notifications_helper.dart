@@ -2,9 +2,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/features/account/models/notification_model.dart';
-import 'package:online_shop/main.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/features/account/models/notification_model.dart';
+import 'package:shop_deal/main.dart';
 
 class NotificationsHelper {
   final firebaseMessaging = FirebaseMessaging.instance;

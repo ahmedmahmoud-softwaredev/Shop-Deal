@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/features/account/view_model/order_history_cubit/order_history_cubit.dart';
-import 'package:online_shop/features/account/views/widgets/track_order_list_view_component.dart';
+import 'package:shop_deal/features/account/view_model/order_history_cubit/order_history_cubit.dart';
+import 'package:shop_deal/features/account/views/widgets/track_order_list_view_component.dart';
 
 class OrderHistoryListView extends StatelessWidget {
   const OrderHistoryListView({super.key});

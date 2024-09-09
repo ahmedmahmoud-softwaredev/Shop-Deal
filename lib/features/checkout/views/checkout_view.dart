@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/utils/app_router.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/features/account/view_model/address_cubit/address_cubit.dart';
-import 'package:online_shop/features/checkout/view_model/checkout_cubit/checkout_cubit.dart';
-import 'package:online_shop/features/checkout/views/widgets/checkout_view_body.dart';
-import 'package:online_shop/features/core/view_model/internet_cubit/internet_cubit.dart';
-import 'package:online_shop/features/core/views/custom_loading_view.dart';
-import 'package:online_shop/features/core/views/no_network_connection_view.dart';
-import 'package:online_shop/features/core/widgets/custom_appbar.dart';
-import 'package:online_shop/features/core/widgets/custom_material_button.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/features/account/view_model/address_cubit/address_cubit.dart';
+import 'package:shop_deal/features/checkout/view_model/checkout_cubit/checkout_cubit.dart';
+import 'package:shop_deal/features/checkout/views/widgets/checkout_view_body.dart';
+import 'package:shop_deal/features/core/view_model/internet_cubit/internet_cubit.dart';
+import 'package:shop_deal/features/core/views/custom_loading_view.dart';
+import 'package:shop_deal/features/core/views/no_network_connection_view.dart';
+import 'package:shop_deal/features/core/widgets/custom_appbar.dart';
+import 'package:shop_deal/features/core/widgets/custom_material_button.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class CheckoutView extends StatelessWidget {
   const CheckoutView({super.key});

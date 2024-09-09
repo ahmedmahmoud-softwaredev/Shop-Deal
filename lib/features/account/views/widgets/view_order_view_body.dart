@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/features/account/views/widgets/track_order_widget.dart';
-import 'package:online_shop/features/checkout/models/order_model.dart';
+import 'package:shop_deal/features/account/views/widgets/track_order_widget.dart';
+import 'package:shop_deal/features/checkout/models/order_model.dart';
 
 class ViewOrderViewBody extends StatelessWidget {
   const ViewOrderViewBody({super.key, required this.order});

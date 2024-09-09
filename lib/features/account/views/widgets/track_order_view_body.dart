@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/features/account/view_model/track_order_cubit/track_order_cubit.dart';
-import 'package:online_shop/features/account/views/widgets/track_order_list_view.dart';
-import 'package:online_shop/features/core/widgets/custom_error_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_loading_widget.dart';
-import 'package:online_shop/features/core/widgets/empty_widget.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/features/account/view_model/track_order_cubit/track_order_cubit.dart';
+import 'package:shop_deal/features/account/views/widgets/track_order_list_view.dart';
+import 'package:shop_deal/features/core/widgets/custom_error_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_loading_widget.dart';
+import 'package:shop_deal/features/core/widgets/empty_widget.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class TrackOrderViewBody extends StatelessWidget {
   const TrackOrderViewBody({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/features/explore/models/product_model.dart';
-import 'package:online_shop/features/explore/views/widgets/product_widget.dart';
+import 'package:shop_deal/features/explore/models/product_model.dart';
+import 'package:shop_deal/features/explore/views/widgets/product_widget.dart';
 
 class RecommendedViewBody extends StatelessWidget {
   const RecommendedViewBody({super.key, required this.recommendedProducts});

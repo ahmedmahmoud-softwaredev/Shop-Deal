@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "741837981392-o4gfucj1a3v5e5arv70uje2rtk2lqmpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmedmahmoud.shop_deal",
+            "certificate_hash": "bf89e75d2dfb8e4afee34eff25b248cdee4ff1d4"
+          }
+        },
+        {
           "client_id": "741837981392-6o6gb79uooatdggqk5spn7431ffo7542.apps.googleusercontent.com",
           "client_type": 3
         }

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/features/account/view_model/user_cubit/user_cubit.dart';
-import 'package:online_shop/features/account/views/widgets/image_source_option.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/features/account/view_model/user_cubit/user_cubit.dart';
+import 'package:shop_deal/features/account/views/widgets/image_source_option.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class ImageSourceDialog extends StatelessWidget {
   const ImageSourceDialog({super.key});

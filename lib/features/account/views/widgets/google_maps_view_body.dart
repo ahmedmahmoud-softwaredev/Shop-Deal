@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:online_shop/core/utils/service_locator.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/account/view_model/address_cubit/address_cubit.dart';
-import 'package:online_shop/features/core/widgets/custom_loading_widget.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/utils/service_locator.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/account/view_model/address_cubit/address_cubit.dart';
+import 'package:shop_deal/features/core/widgets/custom_loading_widget.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class GoogleMapsViewBody extends StatelessWidget {
   const GoogleMapsViewBody({super.key});

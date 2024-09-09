@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
 class PinCodeField extends StatelessWidget {

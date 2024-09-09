@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/features/explore/views/widgets/custom_drop_down_button.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/features/explore/views/widgets/custom_drop_down_button.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class ItemSizesColoursWidget extends StatelessWidget {
   const ItemSizesColoursWidget({super.key, this.itemSizes, this.itemColors});

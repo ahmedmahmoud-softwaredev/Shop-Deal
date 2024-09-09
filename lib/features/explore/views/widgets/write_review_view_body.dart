@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/global/theme/colors/app_colors.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/core/widgets/custom_material_button.dart';
-import 'package:online_shop/features/explore/models/product_model.dart';
-import 'package:online_shop/features/explore/models/review_model.dart';
-import 'package:online_shop/features/explore/view_model/write_review_cubit/write_review_cubit.dart';
-import 'package:online_shop/features/explore/views/widgets/review_text_form_field.dart';
-import 'package:online_shop/generated/l10n.dart';
+import 'package:shop_deal/core/global/theme/colors/app_colors.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/core/widgets/custom_material_button.dart';
+import 'package:shop_deal/features/explore/models/product_model.dart';
+import 'package:shop_deal/features/explore/models/review_model.dart';
+import 'package:shop_deal/features/explore/view_model/write_review_cubit/write_review_cubit.dart';
+import 'package:shop_deal/features/explore/views/widgets/review_text_form_field.dart';
+import 'package:shop_deal/generated/l10n.dart';
 
 class WriteReviewViewBody extends StatelessWidget {
   WriteReviewViewBody({super.key, required this.product});

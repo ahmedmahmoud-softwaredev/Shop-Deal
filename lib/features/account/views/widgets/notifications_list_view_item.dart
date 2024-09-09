@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/core/utils/text_styles.dart';
-import 'package:online_shop/features/account/models/notification_model.dart';
-import 'package:online_shop/features/core/widgets/custom_cached_network_image.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/core/utils/text_styles.dart';
+import 'package:shop_deal/features/account/models/notification_model.dart';
+import 'package:shop_deal/features/core/widgets/custom_cached_network_image.dart';
 
 class NotificationsListViewItem extends StatelessWidget {
   const NotificationsListViewItem({super.key, required this.notification});

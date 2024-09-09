@@ -1,9 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/features/cart/models/cart_item_model.dart';
-import 'package:online_shop/features/explore/models/product_model.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/features/cart/models/cart_item_model.dart';
+import 'package:shop_deal/features/explore/models/product_model.dart';
 
 part 'item_details_state.dart';
 

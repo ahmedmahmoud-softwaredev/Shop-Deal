@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/features/cart/models/cart_item_model.dart';
-import 'package:online_shop/features/checkout/views/widgets/order_summary_product_widget.dart';
+import 'package:shop_deal/features/cart/models/cart_item_model.dart';
+import 'package:shop_deal/features/checkout/views/widgets/order_summary_product_widget.dart';
 
 class OrderSummaryProductsListView extends StatelessWidget {
   const OrderSummaryProductsListView({

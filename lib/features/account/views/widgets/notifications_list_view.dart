@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/features/account/view_model/notifications_cubit/notifications_cubit.dart';
-import 'package:online_shop/features/account/views/widgets/notifications_list_view_item.dart';
+import 'package:shop_deal/features/account/view_model/notifications_cubit/notifications_cubit.dart';
+import 'package:shop_deal/features/account/views/widgets/notifications_list_view_item.dart';
 
 class NotificationsListView extends StatelessWidget {
   const NotificationsListView({super.key});

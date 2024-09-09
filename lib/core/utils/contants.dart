@@ -1,4 +1,4 @@
-import 'package:online_shop/features/authentication/models/user_model.dart';
+import 'package:shop_deal/features/authentication/models/user_model.dart';
 
 //global variables
 UserModel? currentUser;

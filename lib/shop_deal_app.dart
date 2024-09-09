@@ -15,8 +15,8 @@ import 'package:shop_deal/features/core/view_model/internet_cubit/internet_cubit
 import 'package:shop_deal/features/core/view_model/app_cubit/app_cubit.dart';
 import 'package:shop_deal/generated/l10n.dart';
 
-class OnlineShopApp extends StatelessWidget {
-  const OnlineShopApp({super.key});
+class ShopDealApp extends StatelessWidget {
+  const ShopDealApp({super.key});
 
   @override
   Widget build(BuildContext context) {

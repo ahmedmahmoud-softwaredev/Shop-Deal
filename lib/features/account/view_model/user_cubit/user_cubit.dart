@@ -5,10 +5,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:online_shop/core/failure/error/firebase_auth_error_handler.dart';
-import 'package:online_shop/core/helpers/shared_preferences_helper.dart';
-import 'package:online_shop/core/utils/contants.dart';
-import 'package:online_shop/features/authentication/models/user_model.dart';
+import 'package:shop_deal/core/failure/error/firebase_auth_error_handler.dart';
+import 'package:shop_deal/core/helpers/shared_preferences_helper.dart';
+import 'package:shop_deal/core/utils/contants.dart';
+import 'package:shop_deal/features/authentication/models/user_model.dart';
 
 part 'user_state.dart';
 

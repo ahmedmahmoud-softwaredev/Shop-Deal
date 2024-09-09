@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:online_shop/core/helpers/shared_preferences_helper.dart';
-import 'package:online_shop/core/utils/app_router.dart';
-import 'package:online_shop/features/splash/widgets/splash_view_body.dart';
+import 'package:shop_deal/core/helpers/shared_preferences_helper.dart';
+import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/features/splash/widgets/splash_view_body.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});

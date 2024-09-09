@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/core/helpers/shared_preferences_helper.dart';
-import 'package:online_shop/core/utils/contants.dart';
+import 'package:shop_deal/core/helpers/shared_preferences_helper.dart';
+import 'package:shop_deal/core/utils/contants.dart';
 
 part 'app_state.dart';
 

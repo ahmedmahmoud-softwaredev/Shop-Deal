@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:online_shop/features/core/widgets/arrow_back_button.dart';
-import 'package:online_shop/features/core/widgets/custom_error_widget.dart';
-import 'package:online_shop/features/core/widgets/custom_loading_widget.dart';
-import 'package:online_shop/features/explore/view_model/search_cubit/search_cubit.dart';
-import 'package:online_shop/features/explore/views/widgets/product_widget.dart';
-import 'package:online_shop/features/explore/views/widgets/search_field.dart';
+import 'package:shop_deal/features/core/widgets/arrow_back_button.dart';
+import 'package:shop_deal/features/core/widgets/custom_error_widget.dart';
+import 'package:shop_deal/features/core/widgets/custom_loading_widget.dart';
+import 'package:shop_deal/features/explore/view_model/search_cubit/search_cubit.dart';
+import 'package:shop_deal/features/explore/views/widgets/product_widget.dart';
+import 'package:shop_deal/features/explore/views/widgets/search_field.dart';
 
 class SearchViewBody extends StatelessWidget {
   const SearchViewBody({super.key});
