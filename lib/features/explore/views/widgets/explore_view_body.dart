@@ -49,9 +49,9 @@ class ExploreViewBody extends StatelessWidget {
             SliverPadding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               sliver: SliverGrid.builder(
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  childAspectRatio: 0.45,
+                  childAspectRatio: MediaQuery.of(context).size.width / 900,
                   crossAxisSpacing: 15.0,
                   mainAxisSpacing: 16.0,
                 ),
@@ -84,9 +84,9 @@ class ExploreViewBody extends StatelessWidget {
             SliverPadding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               sliver: SliverGrid.builder(
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  childAspectRatio: 0.45,
+                  childAspectRatio: MediaQuery.of(context).size.width / 900,
                   crossAxisSpacing: 15.0,
                   mainAxisSpacing: 16.0,
                 ),

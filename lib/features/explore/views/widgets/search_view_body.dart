@@ -39,9 +39,10 @@ class SearchViewBody extends StatelessWidget {
                               padding: const EdgeInsets.symmetric(
                                   horizontal: 16.0, vertical: 22.0),
                               gridDelegate:
-                                  const SliverGridDelegateWithFixedCrossAxisCount(
+                                  SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisCount: 2,
-                                childAspectRatio: 0.45,
+                                childAspectRatio:
+                                    MediaQuery.of(context).size.width / 900,
                                 crossAxisSpacing: 15.0,
                                 mainAxisSpacing: 16.0,
                               ),
