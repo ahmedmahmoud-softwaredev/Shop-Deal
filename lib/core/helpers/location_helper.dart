@@ -9,7 +9,7 @@ class LocationHelper {
       await Geolocator.requestPermission();
     }
     return Geolocator.getCurrentPosition(
-      desiredAccuracy: LocationAccuracy.high,
+      locationSettings: LocationSettings(accuracy: LocationAccuracy.high),
     );
   }
 }

@@ -26,7 +26,7 @@ class LoginCubit extends Cubit<LoginState> {
       SharedPreferencesHelper.setBoolean(key: "isLoggedIn", value: true);
       firebaseFirestore.collection(usersCollection).doc(user.user!.uid).update(
         {
-          "fcmToken": kFCMToken,
+          "fcmToken": kFCMToken ?? "",
         },
       ).then((value) {
         sl<UserCubit>().getUserData();
@@ -76,20 +76,20 @@ class LoginCubit extends Cubit<LoginState> {
                   uid: user.user!.uid,
                   phoneNumber: user.user?.phoneNumber ?? "",
                   image: user.user!.photoURL!,
-                  fcmToken: kFCMToken!,
+                  fcmToken: kFCMToken ?? "",
                   isPhoneNumberVerified: false,
                 );
                 if (user.additionalUserInfo!.isNewUser) {
                   addUserData(userModel: userModel, user: user, isGoogle: true);
                 } else {
                   SharedPreferencesHelper.setBoolean(
-                      key: "isLoggedIn", value: true);
+                      key: isLoggedInKey, value: true);
                   FirebaseFirestore.instance
                       .collection(usersCollection)
                       .doc(user.user!.uid)
                       .update(
                     {
-                      "fcmToken": kFCMToken,
+                      "fcmToken": kFCMToken ?? "",
                     },
                   );
                   sl<UserCubit>().getUserData();
@@ -157,6 +157,7 @@ class LoginCubit extends Cubit<LoginState> {
         final OAuthCredential facebookAuthCredential =
             FacebookAuthProvider.credential(
                 loginResult.accessToken!.tokenString);
+
         emit(LoginWithFacebookLoadingState());
         FirebaseAuth.instance
             .signInWithCredential(facebookAuthCredential)
@@ -167,19 +168,19 @@ class LoginCubit extends Cubit<LoginState> {
             uid: user.user!.uid,
             phoneNumber: user.user?.phoneNumber ?? "",
             image: user.user!.photoURL!,
-            fcmToken: kFCMToken!,
+            fcmToken: kFCMToken ?? "",
             isPhoneNumberVerified: false,
           );
           if (user.additionalUserInfo!.isNewUser) {
             addUserData(userModel: userModel, user: user, isGoogle: false);
           } else {
-            SharedPreferencesHelper.setBoolean(key: "isLoggedIn", value: true);
+            SharedPreferencesHelper.setBoolean(key: isLoggedInKey, value: true);
             FirebaseFirestore.instance
                 .collection(usersCollection)
                 .doc(user.user!.uid)
                 .update(
               {
-                "fcmToken": kFCMToken,
+                "fcmToken": kFCMToken ?? "",
               },
             );
             sl<UserCubit>().getUserData();
@@ -230,7 +231,7 @@ class LoginCubit extends Cubit<LoginState> {
           UserModel.toMap(userModel),
         )
         .then((value) {
-      SharedPreferencesHelper.setBoolean(key: "isLoggedIn", value: true);
+      SharedPreferencesHelper.setBoolean(key: isLoggedInKey, value: true);
       FirebaseFirestore.instance
           .collection(usersCollection)
           .doc(user.user!.uid)

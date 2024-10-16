@@ -15,47 +15,49 @@ class NewAddressViewBody extends StatelessWidget {
       TextEditingController();
   @override
   Widget build(BuildContext context) {
-    return Form(
-      key: formKey,
-      child: Padding(
-        padding: const EdgeInsets.symmetric(
-          horizontal: 16.0,
-          vertical: 30.0,
-        ),
-        child: Column(
-          children: [
-            CustomTextFormFieldComponent(
-              controller: addressTitleController,
-              title: S.of(context).addressTitle,
-              onChanged: (value) {},
-            ),
-            const SizedBox(
-              height: 50.0,
-            ),
-            CustomTextFormFieldComponent(
-              controller: addressDetailsController,
-              title: S.of(context).addressDetails,
-              maxLines: 2,
-              onChanged: (value) {},
-            ),
-            const SizedBox(
-              height: 70.0,
-            ),
-            sl<AddressCubit>().state == AddAddressLoadingState()
-                ? const CustomLoadingWidget()
-                : CustomMaterialButton(
-                    title: S.of(context).add,
-                    onPressed: () {
-                      if (formKey.currentState!.validate()) {
-                        sl<AddressCubit>().addAddress(
-                          addressTitle: addressTitleController.text,
-                          addressDetails: addressDetailsController.text,
-                        );
-                        GoRouter.of(context).pop();
-                      }
-                    },
-                  ),
-          ],
+    return SingleChildScrollView(
+      child: Form(
+        key: formKey,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 16.0,
+            vertical: 30.0,
+          ),
+          child: Column(
+            children: [
+              CustomTextFormFieldComponent(
+                controller: addressTitleController,
+                title: S.of(context).addressTitle,
+                onChanged: (value) {},
+              ),
+              const SizedBox(
+                height: 50.0,
+              ),
+              CustomTextFormFieldComponent(
+                controller: addressDetailsController,
+                title: S.of(context).addressDetails,
+                maxLines: 2,
+                onChanged: (value) {},
+              ),
+              const SizedBox(
+                height: 70.0,
+              ),
+              sl<AddressCubit>().state == AddAddressLoadingState()
+                  ? const CustomLoadingWidget()
+                  : CustomMaterialButton(
+                      title: S.of(context).add,
+                      onPressed: () {
+                        if (formKey.currentState!.validate()) {
+                          sl<AddressCubit>().addAddress(
+                            addressTitle: addressTitleController.text,
+                            addressDetails: addressDetailsController.text,
+                          );
+                          GoRouter.of(context).pop();
+                        }
+                      },
+                    ),
+            ],
+          ),
         ),
       ),
     );

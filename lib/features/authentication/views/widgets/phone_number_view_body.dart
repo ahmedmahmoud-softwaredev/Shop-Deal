@@ -41,113 +41,116 @@ class PhoneNumberVerificationViewBody extends StatelessWidget {
         }
       },
       builder: (context, state) {
-        return Padding(
-          padding: const EdgeInsets.only(top: 44.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const ArrowBackButton(),
-              const SizedBox(
-                height: 62.0,
-              ),
-              Container(
-                margin: const EdgeInsets.symmetric(horizontal: 15.0),
-                padding: const EdgeInsets.all(15.0),
-                decoration: BoxDecoration(
-                  color: kIsDarkMode!
-                      ? Theme.of(context).scaffoldBackgroundColor
-                      : Colors.white,
+        return SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.only(top: 44.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const ArrowBackButton(),
+                const SizedBox(
+                  height: 62.0,
                 ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      S.of(context).verification,
-                      style: Styles.textStyles30,
-                    ),
-                    const SizedBox(
-                      height: 10.0,
-                    ),
-                    Text(
-                      S.of(context).a6Digits,
-                      style: Styles.textStyles14.copyWith(
-                        color: AppColors.greyColor,
+                Container(
+                  margin: const EdgeInsets.symmetric(horizontal: 15.0),
+                  padding: const EdgeInsets.all(15.0),
+                  decoration: BoxDecoration(
+                    color: kIsDarkMode!
+                        ? Theme.of(context).scaffoldBackgroundColor
+                        : Colors.white,
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        S.of(context).verification,
+                        style: Styles.textStyles30,
                       ),
-                    ),
-                    const SizedBox(
-                      height: 57.0,
-                    ),
-                    Form(
-                      key: formKey,
-                      child: PinCodeField(
-                        controller: pinCodeController,
+                      const SizedBox(
+                        height: 10.0,
                       ),
-                    ),
-                    const SizedBox(
-                      height: 65.5,
-                    ),
-                    state is RegisterLoadingState
-                        ? const CustomLoadingWidget()
-                        : BlocConsumer<LoginCubit, LoginState>(
-                            listener: (context, state) {
-                              if (state is LoginSuccessfulState) {
-                                context.go(AppRouter.rootView);
-                              }
-                            },
-                            builder: (context, state) {
-                              if (state is LoginLoadingState) {
-                                return const CustomLoadingWidget();
-                              } else {
-                                return BlocConsumer<UserCubit, UserState>(
-                                  listener: (context, state) {
-                                    if (state is UpdateUserDataSuccesState) {
-                                      GoRouter.of(context).pop();
-                                    }
-                                  },
-                                  builder: (context, state) {
-                                    if (state
-                                        is VerifyPhoneNumberLoadingState) {
-                                      return const CustomLoadingWidget();
-                                    } else {
-                                      return CustomMaterialButton(
-                                        title: S
-                                            .of(context)
-                                            .Continue
-                                            .toUpperCase(),
-                                        onPressed: () {
-                                          if (formKey.currentState!
-                                              .validate()) {
-                                            isFromLogin == null
-                                                ? sl<UserCubit>()
-                                                    .verifyPhoneNumber(
-                                                        smsCode:
-                                                            pinCodeController
-                                                                .text)
-                                                : isFromLogin == true
-                                                    ? LoginCubit.get(context)
-                                                        .login(
-                                                            smsCode:
-                                                                pinCodeController
-                                                                    .text)
-                                                    : RegisterCubit.get(context)
-                                                        .register(
-                                                        smsCode:
-                                                            pinCodeController
-                                                                .text,
-                                                      );
-                                          }
-                                        },
-                                      );
-                                    }
-                                  },
-                                );
-                              }
-                            },
-                          ),
-                  ],
+                      Text(
+                        S.of(context).a6Digits,
+                        style: Styles.textStyles14.copyWith(
+                          color: AppColors.greyColor,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 57.0,
+                      ),
+                      Form(
+                        key: formKey,
+                        child: PinCodeField(
+                          controller: pinCodeController,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 65.5,
+                      ),
+                      state is RegisterLoadingState
+                          ? const CustomLoadingWidget()
+                          : BlocConsumer<LoginCubit, LoginState>(
+                              listener: (context, state) {
+                                if (state is LoginSuccessfulState) {
+                                  context.go(AppRouter.rootView);
+                                }
+                              },
+                              builder: (context, state) {
+                                if (state is LoginLoadingState) {
+                                  return const CustomLoadingWidget();
+                                } else {
+                                  return BlocConsumer<UserCubit, UserState>(
+                                    listener: (context, state) {
+                                      if (state is UpdateUserDataSuccesState) {
+                                        GoRouter.of(context).pop();
+                                      }
+                                    },
+                                    builder: (context, state) {
+                                      if (state
+                                          is VerifyPhoneNumberLoadingState) {
+                                        return const CustomLoadingWidget();
+                                      } else {
+                                        return CustomMaterialButton(
+                                          title: S
+                                              .of(context)
+                                              .Continue
+                                              .toUpperCase(),
+                                          onPressed: () {
+                                            if (formKey.currentState!
+                                                .validate()) {
+                                              isFromLogin == null
+                                                  ? sl<UserCubit>()
+                                                      .verifyPhoneNumber(
+                                                          smsCode:
+                                                              pinCodeController
+                                                                  .text)
+                                                  : isFromLogin == true
+                                                      ? LoginCubit.get(context)
+                                                          .login(
+                                                              smsCode:
+                                                                  pinCodeController
+                                                                      .text)
+                                                      : RegisterCubit.get(
+                                                              context)
+                                                          .register(
+                                                          smsCode:
+                                                              pinCodeController
+                                                                  .text,
+                                                        );
+                                            }
+                                          },
+                                        );
+                                      }
+                                    },
+                                  );
+                                }
+                              },
+                            ),
+                    ],
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         );
       },

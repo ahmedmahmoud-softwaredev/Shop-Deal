@@ -18,9 +18,11 @@ class BestSellingSection extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(
-                S.of(context).bestSelling,
-                style: Styles.textStyles18,
+              Expanded(
+                child: Text(
+                  S.of(context).bestSelling,
+                  style: Styles.textStyles18,
+                ),
               ),
               TextButton(
                 onPressed: () {

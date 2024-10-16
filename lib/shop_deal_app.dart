@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shop_deal/core/global/theme/theme_data/dark_model_theme_data/dark_mode_theme_data.dart';
 import 'package:shop_deal/core/global/theme/theme_data/light_mode_theme_data/light_mode_theme_data.dart';
 import 'package:shop_deal/core/utils/app_router.dart';
+import 'package:shop_deal/core/utils/contants.dart';
 import 'package:shop_deal/core/utils/service_locator.dart';
 import 'package:shop_deal/features/account/view_model/address_cubit/address_cubit.dart';
 import 'package:shop_deal/features/account/view_model/user_cubit/user_cubit.dart';
@@ -49,20 +51,25 @@ class ShopDealApp extends StatelessWidget {
       ],
       child: BlocBuilder<AppCubit, AppState>(
         builder: (context, state) {
-          return MaterialApp.router(
-            locale: Locale(AppCubit.get(context).currentLanguage!),
-            localizationsDelegates: const [
-              S.delegate,
-              GlobalMaterialLocalizations.delegate,
-              GlobalWidgetsLocalizations.delegate,
-              GlobalCupertinoLocalizations.delegate,
-            ],
-            supportedLocales: S.delegate.supportedLocales,
-            debugShowCheckedModeBanner: false,
-            routerConfig: AppRouter.routes,
-            theme: AppCubit.get(context).isDarkMode!
-                ? darkModeThemeData()
-                : lightModeThemeData(),
+          return AnnotatedRegion(
+            value: kIsDarkMode == true
+                ? SystemUiOverlayStyle.light
+                : SystemUiOverlayStyle.dark,
+            child: MaterialApp.router(
+              locale: Locale(AppCubit.get(context).currentLanguage!),
+              localizationsDelegates: const [
+                S.delegate,
+                GlobalMaterialLocalizations.delegate,
+                GlobalWidgetsLocalizations.delegate,
+                GlobalCupertinoLocalizations.delegate,
+              ],
+              supportedLocales: S.delegate.supportedLocales,
+              debugShowCheckedModeBanner: false,
+              routerConfig: AppRouter.routes,
+              theme: AppCubit.get(context).isDarkMode!
+                  ? darkModeThemeData()
+                  : lightModeThemeData(),
+            ),
           );
         },
       ),

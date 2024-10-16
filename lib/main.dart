@@ -34,6 +34,5 @@ void main() async {
   await SharedPreferencesHelper.init();
   await HiveHelper.init();
   setup();
-
   runApp(const ShopDealApp());
 }
